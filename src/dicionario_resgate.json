@@ -1,0 +1,52 @@
+{
+  "NÃO PRETENDE RESGATAR": [
+    "não pretendo fazer resgates",
+    "não pretendo realizar resgates",
+    "sem resgate",
+    "não pretendo",
+    "não vou resgatar",
+    "não quero",
+    "nao quero",
+    "por enquanto não",
+    "não vou realizar resgate",
+    "somente em caso de emergência",
+    "apenas de dividendos e jcp",
+    "não tenho planos de resgate",
+    "resgate so futuramente",
+    "pretendo não fazer resgate",
+    "não, sem resgates, sempre reaplicado",
+    "apenas se minha reserva de emergência não for suficiente",
+    "longo prazo para resgate",
+    "manter entre 3 e 5 anos",
+    "não pretendo resgatar",
+    "só se for em uma emergência",
+    "deixar rendendo sem resgate",
+    "pretendo deixar",
+    "não",
+    "não pretendo efetuar resgate",
+    "não pretendo fazer resgates antes",
+    "possiveisResgates | false"
+  ],
+  "PRETENDE RESGATAR": [
+    "resgates mensais",
+    "só em",
+    "complementar a renda",
+    "curto prazo",
+    "pretendo",
+    "liquidez",
+    "resgate constante",
+    "obter resgates e reinvestir",
+    "resgate em até 2 anos",
+    "resgate ao longo do tempo",
+    "se precisar de resgate posso tirar",
+    "liquidez diária",
+    "resgate imediato",
+    "pequenos resgate",
+    "fazer um teste de 6 meses",
+    "possiveisResgates | true"
+  ],
+  "NÃO SE APLICA": [
+    "possíveis resgates | null",
+    "possíveis resgates | {}"
+  ]
+}
