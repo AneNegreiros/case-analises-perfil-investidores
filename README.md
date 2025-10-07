@@ -39,15 +39,15 @@ O objetivo deste projeto é criar um pipeline de classificação que:
 - 
 ## Como funciona
 
-Dados Brutos (data/Case - Wpp.xlsx)
-        ↓
-[src/1.pipeline_classificacao.py]
-        ↓
-Dados Classificados (results/Case - Wpp_PIPELINE_CLASSIFICADO_final.xlsx)
-        ↓
-[src/2.definicao_perfis.py]
-        ↓
-Perfis Agregados (results/base_perfis_agrupados.xlsx)
+- Dados Brutos (data/Case - Wpp.xlsx)
+- ↓
+- [src/1.pipeline_classificacao.py]
+- ↓
+- Dados Classificados (results/Case - Wpp_PIPELINE_CLASSIFICADO_final.xlsx)
+- ↓
+- [src/2.definicao_perfis.py]
+- ↓
+- Perfis Agregados (results/base_perfis_agrupados.xlsx)
 
 ##Arquivos de Configuração
 - requirements.txt - Dependências do projeto
