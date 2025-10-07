@@ -1,4 +1,4 @@
-# 🎯 Classificação de Perfis de Investidores através de inputs
+# 🎯 Classificação de Perfis de Investidores através de 'inputs'
 
 Este projeto realiza a classificação automática de perfis de investidores a partir de dados textuais, utilizando processamento de linguagem natural e regras de negócio específicas.
 
