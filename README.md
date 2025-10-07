@@ -29,15 +29,42 @@ O objetivo deste projeto é criar um pipeline de classificação que:
 ### Dicionários de Classificação
 - `objetivos_categorizados.json`: Mapeamento de termos para categorias de objetivos
 - `resgate_categorizado.json`: Mapeamento de termos para intenção de resgate
+  
+## Tecnologias Utilizadas
+- Python 3.x
+- Pandas (manipulação de dados)
+- FuzzyWuzzy (similaridade textual)
+- OpenPyXL (manipulação de Excel)
+- JSON (configurações e dicionários)
+- 
+## Como funciona
 
-## 🚀 Como Executar
+Dados Brutos (data/Case - Wpp.xlsx)
+        ↓
+[src/1.pipeline_classificacao.py]
+        ↓
+Dados Classificados (results/Case - Wpp_PIPELINE_CLASSIFICADO_final.xlsx)
+        ↓
+[src/2.definicao_perfis.py]
+        ↓
+Perfis Agregados (results/base_perfis_agrupados.xlsx)
+
+##Arquivos de Configuração
+- requirements.txt - Dependências do projeto
+- .gitignore - Arquivos ignorados pelo Git
+- LICENSE - Licença do projeto
+
 
 ### Pré-requisitos
 ```bash
 pip install -r requirements.txt
 
-## 🧩 Estrutura de Pastas
-- scripts/ → códigos Python do pipeline
-- data/ → bases de entrada e saída
-- dicts/ → dicionários de regras JSON
-- results/ → saídas tratadas
+## Estrutura de Arquivos
+- src/1.pipeline_classificacao.py - Pipeline principal de classificação
+- src/2.definicao_perfis.py - Definição de perfis de investidores
+- src/*.json - Dicionários para classificação textual
+- src/*.ipynb - Notebooks para análise interativa
+## Arquivos de Configuração
+- requirements.txt - Dependências do projeto
+- .gitignore - Arquivos ignorados pelo Git
+- LICENSE - Licença do projeto
