@@ -1,14 +1,1 @@
-mkdir src
-mv 1.pipeline_classificacao.py src/
-mv 2.definicao_perfis.py src/
-mv objetivos_categorizados.json src/
-mv resgate_categorizado.json src/
 
-# Confira a nova estrutura
-ls -la
-ls -la src/
-
-# Commit das mudanças
-git add src/
-git commit -m "Reorganize: move all source files to src folder"
-git push origin main
