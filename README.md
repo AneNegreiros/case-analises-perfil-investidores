@@ -13,14 +13,14 @@ O objetivo deste projeto é criar um pipeline de classificação que:
 
 ## Estrutura do Projeto
 
-### Pipeline de Classificação (`1.pipeline_classificacao.py`)
+### Pipeline de Classificação (`Case_Pipiline.ipynb`)
 - Processa dados brutos do Excel
 - Classifica objetivos de investimento usando fuzzy matching
 - Identifica valores de aporte com regex
 - Aplica hierarquia entre classificações (Objetivo > Resgate)
 - Gera arquivo intermediário classificado
 
-### Definição de Perfis (`2.definicao_perfis.py`)
+### Definição de Perfis (`Case_PerfisAgrupados.ipynb`)
 - Filtra dados classificados pelo pipeline anterior
 - Agrupa combinações de objetivos, aportes e resgates
 - Aplica regras de negócio para mapear perfis de investidores
